@@ -1,0 +1,59 @@
+______________________________________________
+Graph: n: 4, m: 4, directed: false, Edge weights: true
+1 :  (1,2)[9] (1,3)[4]
+2 :  (1,2)[9] (2,3)[2]
+3 :  (2,3)[2] (1,3)[4] (4,3)[1]
+4 :  (4,3)[1]
+______________________________________________
+1
+2
+3
+4
+INSIDE BORUVKA
+______________________________________________
+Graph: n: 4, m: 4, directed: false, Edge weights: true
+1 :  (1,2)[9] (1,3)[4]
+2 :  (1,2)[9] (2,3)[2]
+3 :  (2,3)[2] (1,3)[4] (4,3)[1]
+4 :  (4,3)[1]
+______________________________________________
+count4
+ COUNTER 4
+1COMPONENT: 1
+2COMPONENT: 2
+3COMPONENT: 3
+4COMPONENT: 4
+1COMPONENT: 1
+2COMPONENT: 2
+3COMPONENT: 3
+4COMPONENT: 4
+1 -->2 9
+1COMPONENT: 1
+2COMPONENT: 2
+3COMPONENT: 3
+4COMPONENT: 4
+1 -->3 4
+1COMPONENT: 1
+2COMPONENT: 2
+3COMPONENT: 3
+4COMPONENT: 4
+2 -->3 2
+1COMPONENT: 1
+2COMPONENT: 2
+3COMPONENT: 3
+4COMPONENT: 4
+4 -->3 1
+(1,3)
+[(1,3)]
+1 -->3 4
+(2,3)
+[(1,3), (2,3)]
+2 -->3 2
+(4,3)
+[(1,3), (2,3), (4,3)]
+4 -->3 1
+[(1,3), (2,3), (4,3)]
+Boruvka
+7
+Time: 12 msec.
+Memory: 3 MB / 254 MB.
